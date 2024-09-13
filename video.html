@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Upload</title>
+    <link rel="stylesheet" href="vidstyles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-left">
+            <div class="logo">
+                <img src="/photos/logo.jpg" alt="Website Logo">
+            </div>
+            <div class="search-box">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Search" aria-label="Search">
+            </div>
+        </div>
+        <div class="nav-center">
+            <a href="/home-page/home.html" aria-label="Home"><i class="fa-solid fa-house"></i></a>
+            <a href="/vid/video.html" aria-label="video"><i class="fa-solid fa-tv"></i></a>
+            <a href="contacts.html" aria-label="Contacts"><i class="fa-solid fa-address-book"></i></a>
+            <a href="users.html" aria-label="Users"><i class="fa-solid fa-users"></i></a>
+            <a href="explore.html" aria-label="Explore"><i class="fa-regular fa-compass"></i></a>
+        </div>
+        <div class="nav-right">
+            <a href="#" aria-label="Menu"><i class="fa-solid fa-bars"></i></a>
+            <a href="#" aria-label="Messenger"><i class="fa-brands fa-facebook-messenger"></i></a>
+            <a href="#" aria-label="Notifications"><i class="fa-solid fa-bell"></i></a>
+            <img src="/photos/buddha.jpg" alt="User Avatar" aria-label="User Avatar">
+        </div>
+    </nav>
+    <div class="upload-container">
+        <h1>Upload Your Video</h1>
+        <input type="file" id="videoUpload" accept="video/*">
+        <label for="videoUpload">Choose Video</label>
+    </div>
+</body>
+</html>
